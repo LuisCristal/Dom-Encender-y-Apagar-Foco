@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Encender y Apagar Foco</title>
+</head>
+<body>
+    <h1>Control de Foco</h1>
+    
+    
+    
+    <button id="botonEncender" onclick="encenderFoco()">Encender</button>
+    <button id="botonApagar" onclick="apagarFoco()">Apagar</button>
+    
+    <script>
+        function encenderFoco() {
+            var foco = document.getElementById("foco");
+            foco.src = "encender.webp";
+        }
+
+        function apagarFoco() {
+            var foco = document.getElementById("foco");
+            foco.src = "apagar.jpg";
+        }
+    </script>
+</body>
+</html>
